@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^specs$
+^docs/waf$
+^\.github$
+^README\.Rmd$
+^\.vscode$
+^LICENSE$

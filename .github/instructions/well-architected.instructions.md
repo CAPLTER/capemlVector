@@ -1,0 +1,14 @@
+---
+description: "Use when making non-trivial design or architecture decisions. Points to the local Well-Architected Framework reference material in docs/waf/ (pillar checklists, trade-off prompts, examples) that agents should consult and cite."
+---
+# Well-Architected reference
+
+For any non-trivial design choice, consult the local WAF reference in
+[docs/waf/](../../docs/waf/) and **cite the pillar(s)** you are optimizing for
+and what you trade away (see the base operating model in
+`copilot-instructions.md`).
+
+- Pillar checklists and trade-off prompts live in `docs/waf/`.
+- These are version-controlled, reviewable references — prefer them (and live
+  doc MCP servers) over model memory.
+- When a decision is made, record the rationale in the relevant `specs/<slug>/spec.md`.

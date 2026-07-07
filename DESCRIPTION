@@ -1,0 +1,37 @@
+Package: capemlVector
+Title: Tools for Generating EML Metadata for Spatial Vector Data
+Version: 0.1.0
+Authors@R: person("S", "Earl", email = "stevan.earl@asu.edu",
+  role = c("aut", "cre"))
+Description: Facilitates the creation of Ecological Metadata Language (EML)
+  spatialVector entities from spatial data objects for publishing to the
+  Environmental Data Initiative (EDI) data repository. Functions support
+  creating metadata for vector files (KML, GeoJSON, and ESRI shapefiles) and
+  generating EML geographic coverage elements from simple features objects.
+  Intended as a companion to the capeml package, which handles tabular data
+  and dataset-level metadata.
+Depends:
+    R (>= 4.1.0)
+License: CC0
+Encoding: UTF-8
+LazyData: false
+Imports:
+    EML,
+    sf,
+    xml2,
+    yaml,
+    tools,
+    stringr,
+    rlang,
+    purrr,
+    capeml
+Remotes:
+    CAPLTER/capeml
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0),
+    tibble,
+    withr
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0

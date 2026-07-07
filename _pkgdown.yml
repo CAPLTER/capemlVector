@@ -1,0 +1,19 @@
+template:
+  bootstrap: 5
+  light-switch: true
+
+reference:
+  - title: "Spatial vector files"
+    desc: "Create EML spatialVector entities from KML, GeoJSON, and ESRI shapefile data"
+    contents:
+      - create_vector
+      - create_vector_shape
+      - package_vector_shape
+  - title: "Geographic coverage"
+    desc: "Generate EML geographic coverage elements from simple features objects"
+    contents:
+      - create_geographic_coverage
+  - title: "Helpers"
+    desc: "Utility functions for working with EML-compliant coordinate reference systems"
+    contents:
+      - list_crs

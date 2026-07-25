@@ -35,7 +35,9 @@ has no standardized metadata, so it cannot be deposited or discovered.
 
 ## Options considered (Well-Architected trade-offs)
 
-See `docs/waf/pillars/` for the checklists referenced below.
+See the
+[local WAF pillar checklists](../../.github/ai-reference/waf/pillars/)
+referenced below.
 
 ### Option A — Hand-author EML XML
 - **Reliability** ↓: error-prone, not regenerable; congruence drift likely.

@@ -25,4 +25,6 @@ software. Treat reproducibility as the reliability pillar.
 - State assumptions and check them; report uncertainty, not just point estimates.
 - If publishing data, hand off to the `eml-metadata` skill for the package.
 
-Consult `docs/waf/pillars/` and cite trade-offs in `specs/<slug>/spec.md`.
+Consult
+[.github/ai-reference/waf/pillars/](../ai-reference/waf/pillars/)
+and cite trade-offs in `specs/<slug>/spec.md`.

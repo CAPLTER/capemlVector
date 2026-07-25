@@ -1,7 +1,8 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^specs$
-^docs/waf$
+^docs$
+^_pkgdown\.yml$
 ^\.github$
 ^README\.Rmd$
 ^\.vscode$

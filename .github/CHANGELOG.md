@@ -4,6 +4,11 @@ Tracks intentional changes to the engineering operating model: instructions,
 agents, prompts, skills, WAF docs, and MCP config. Git history captures *what*;
 this file captures *why*. Newest first.
 
+## 2026-07-24
+- Move the hand-maintained WAF guidance to `.github/ai-reference/waf/` so
+  pkgdown clean builds can safely replace `docs/` without deleting AI
+  reference material; update instruction and specification links accordingly.
+
 ## 2026-06-29
 - Update R guidance: treat `renv` as suggested (not required), prefer
   explicit non-base namespacing, and favor `purrr` iteration patterns over
@@ -24,8 +29,8 @@ this file captures *why*. Newest first.
 - Add this changelog to version the operating model like code.
 - Base instructions now require logging operating-model changes here. Add README.
 - Add MCP `context7` (live R-package docs); drop redundant filesystem servers
-  for `docs/waf`/`specs` (in-workspace, read natively; read-only enforced via
-  agent `tools:`). Add `docs/waf/` pillar checklists + WAF instruction.
+  for the WAF references and `specs` (in-workspace, read natively; read-only
+  enforced via agent `tools:`). Add pillar checklists + WAF instruction.
 - Add worked example `specs/eml-stream-chemistry/` (spec + plan).
 - Initial scaffold: base `copilot-instructions.md` (loop + pillars), R/Python
   style instructions, `/spec` + `/plan` prompts, `architect`/`planner` agents,
